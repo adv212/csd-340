@@ -1,0 +1,50 @@
+body,
+html {
+  font-size: 16px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+p {
+  line-height: 1.4em;
+  font-weight: 400;
+}
+
+p.intro {
+  text-indent: 2em;
+}
+
+h2 {
+  text-align: left;
+  padding-top: 15px;
+  font-weight: 500;
+}
+
+address {
+  text-align: center;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none; /* no underline */
+  color: #4f3674;
+  font-size: 1.25em;
+}
+
+a:hover {
+  color: #d64e00;
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: rgb(3, 180, 32);
+}
+
+span.sentence {
+  font-style: italic;
+}
